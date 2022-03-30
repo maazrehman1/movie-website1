@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #d2dbdd;
+  
+  
+  
+}
+
+.cards{
+  width: 18%;
+  height: 30%;
+  margin: 5%;
+  transition: all 0.4s cubic-bezier(0.175, 0.895, 0, 1);
+  border-radius: 20px;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+  float: left;
+  margin-top: 5%;
+  background-color: #fff;
+  border-radius: 40px;
+  margin-left: 8.5%;
+  
+}
+
+.cards:hover{
+  box-shadow: 20px 50px 25px 25px rgba(0, 0, 0, 0.1);
+}
+
+.img{
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  
+}
+
+.button{
+  width: 120px;
+  height: 50px;
+  font-size: 1.25rem;
+  border-style:solid;
+  padding: 2px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  background-color:lightgrey;
+  margin-left: 32%;
+}
+
+.sname{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 70px ;
+  background-color: #fff;
+  
+}
+
+.stitle{
+  padding: 30px 0;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #868686;
+  background-color: #fff;
+  
+}
+
+.heading{
+
+  font-size: 90px;
+  font-weight: 200;
+  font-family:  "Raleway", sans-serif;
+  color: #868686;
+  text-align: center;
+  background-color: #fff;
+  height: 140px;
+  padding-top: 15px;
+}
+
+.mainlink{
+    
+  margin-left: 2%;
+  background-color: #fff;
+}
+
+.NavButton{
+
+background-color: white;
+float:left;
+margin:4px;
+width: 220px;
+height: 50px;
+margin-left: 5%;
+font-size: 40px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 10px;
+border-radius: 20px;
+cursor: pointer;
+border-style:hidden;
+transition: all 0.4s cubic-bezier(0.175, 0.895, 0, 1);
+box-shadow: 0px 7px 4px -7px rgba(0, 0, 0, 0.1);
+
+}
+.NavButton:hover{
+  box-shadow: 4px 5px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.NavB{
+
+  margin-left: 23%;
+  margin-top: 3%;
+  
+}
